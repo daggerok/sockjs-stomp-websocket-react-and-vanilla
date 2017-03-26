@@ -1,0 +1,11 @@
+.idea
+!.idea/runConfigurations/*
+!.mvn/wrapper/*.jar
+!.gradle/wrapper/*.jar
+build/
+target/
+.gradle/
+.DS_Store
+*.iml
+*.ipr
+*.iws

@@ -1,0 +1,35 @@
+plugins {
+  id 'java'
+  id 'idea'
+  id 'eclipse'
+  id 'org.springframework.boot' version '1.5.2.RELEASE'
+}
+
+jar {
+  baseName = 'sockjs-stomp-websocket-react-and-vanilla'
+  version = '0.0.1'
+}
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'org.springframework.boot:spring-boot-starter-websocket',
+      'org.webjars:webjars-locator',
+      'org.webjars:sockjs-client:1.0.2',
+      'org.webjars:stomp-websocket:2.3.3',
+      'org.webjars:bootstrap:3.3.7',
+      'org.webjars:jquery:3.1.0',
+      'org.webjars:react:15.3.2',
+      'org.webjars.npm:babel-standalone:6.23.1'
+
+  runtime 'org.springframework.boot:spring-boot-devtools'
+
+  compileOnly 'org.projectlombok:lombok'
+
+  testCompile 'org.springframework.boot:spring-boot-starter-test'
+}
