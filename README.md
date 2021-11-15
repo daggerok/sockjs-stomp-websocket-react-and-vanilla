@@ -12,3 +12,7 @@ gradle bootRun
 
 ## Other repos
 * https://github.com/daggerok/spring-websocket-stomp
+* https://github.com/daggerok/spring-boot-rest-jms-activemq
+* https://github.com/daggerok/spring-streaming
+* https://github.com/daggerok/wsock
+* https://github.com/daggerok/spring-security-rest-auth-token
