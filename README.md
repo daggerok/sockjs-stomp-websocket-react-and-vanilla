@@ -9,3 +9,6 @@ mvn spring-boot:run
 # or
 gradle bootRun
 ```
+
+## Other repos
+* https://github.com/daggerok/spring-websocket-stomp
